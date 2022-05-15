@@ -13,7 +13,7 @@ curl --location --request POST 'http://localhost:8080/api/v1/applebag/add' \
     "priceOfBag": 10
 }'
 
-**Curl for getting Apple Bags** (just pass the noOfBags in params by default it will take 3
+**Curl for getting Apple Bags** (just pass the noOfBags in params by default it will take 3)
 
 curl --location --request GET 'http://localhost:8080/api/v1/applebags?noOfBags=2' \
 --data-raw ''
